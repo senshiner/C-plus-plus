@@ -1,0 +1,11 @@
+# Hasil compile
+*.exe
+# File objek
+*.o
+# File dan folder sementara
+*.log
+*.tmp
+*.temp
+
+# File cache
+.vscode/
