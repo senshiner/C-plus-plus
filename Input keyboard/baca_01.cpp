@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// bisa menginput dan menampilkan banyak karakter
 int main(void) {
     char S[6];
     printf("Inputkan String:");
