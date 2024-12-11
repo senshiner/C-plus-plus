@@ -33,8 +33,8 @@ void sPleasure() {
 
 void yourSong(){
     delayLirik("Ayo ayo",0.1);
-    delayLirik("Ganyang fufufafa",0.1);
-    delayLirik("Ganyang fufufafa",0.1);
+    delayLirik("?",0.1);
+    delayLirik("?",0.1);
     delayLirik("Sekarang juga",0.1);
     delayLirik("Semuanyaaa",0.1);
 }

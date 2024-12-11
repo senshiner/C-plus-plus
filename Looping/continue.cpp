@@ -22,7 +22,6 @@ main (void) {
     } // Output: 0,1,2,4,5
     cout << endl;
 
-
     int k;
     for (k=0;k<=5;k++){
     if (k==3)
