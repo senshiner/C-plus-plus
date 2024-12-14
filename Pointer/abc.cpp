@@ -9,6 +9,7 @@ int main(void) {
                     'K', 'L', 'M', 'N', 'O'};
 
     // Pointer P dengan karakter(char)
+    // berati *P menunjuk isi P
     char *P;
 
     // array 2d ini berati baris index 0 dan kolon index 0 yaitu A jadi sama aja mencari &A
