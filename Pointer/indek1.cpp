@@ -2,7 +2,7 @@
 using namespace std;
 
 // fungsi (&) mendapatkan alamat variabel
-// fungsi (*p) membuka variabel dan melihat isi didalamnya
+// fungsi (* ) membuka variabel dan melihat isi didalamnya
 
 int main(void) {
     int A = 25, *pA;             // Variabel A dengan nilai 25 dan pointer pA
