@@ -1,5 +1,7 @@
 #include<iostream>
 using namespace std;
+// fungsi (&) mendapatkan alamat variabel
+// fungsi (* ) membuka variabel dan melihat isi didalamnya
 int main(void){
     int *pTgl,*pTgl2,tglLahir[]={24,6,65};
     pTgl=tglLahir;pTgl2=&tglLahir[1];

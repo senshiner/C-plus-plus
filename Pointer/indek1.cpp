@@ -1,5 +1,7 @@
 #include<iostream>
 using namespace std;
+// fungsi (&) mendapatkan alamat variabel
+// fungsi (* ) membuka variabel dan melihat isi didalamnya
 int main(void){
     int A=25,*pA;
     pA=&A;

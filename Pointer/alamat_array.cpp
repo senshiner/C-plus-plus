@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+// fungsi (&) mendapatkan alamat variabel
 int main(void){
     int a[7];
     cout << "Alamat a[0] ="<<&a[0]<<endl;

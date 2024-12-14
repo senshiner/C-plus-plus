@@ -1,5 +1,7 @@
 #include<iostream>
 using namespace std;
+// fungsi (&) mendapatkan alamat variabel
+// fungsi (* ) membuka variabel dan melihat isi didalamnya
 int main(void)
 {
     char kalimat[] = {"Selamat Belajar Visual C++"};
@@ -11,7 +13,7 @@ int main(void)
 
     while (*pKarakter)
     {
-        char kar = *pKarakter;
+        char kar = *pKarakter;// && dibaca "dan"
         if (kar >= 'a' && kar <= 'z')
             JumlahHurufKecil++;
         if (kar >= 'A' && kar <= 'Z')
