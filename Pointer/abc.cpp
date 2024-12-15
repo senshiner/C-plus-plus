@@ -12,7 +12,7 @@ int main(void) {
     // berati *P menunjuk isi P
     char *P;
 
-    // array 2d ini berati baris index 0 dan kolon index 0 yaitu A jadi sama aja mencari &A
+    // array 2d ini berati baris index 0 dan kolom index 0 yaitu A jadi sama aja mencari &A
     P = &A[0][0];
 
     // Outputnya akan muncul isi alamat &A
