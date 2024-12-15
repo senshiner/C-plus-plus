@@ -2,6 +2,18 @@
 using namespace std;
 
 int main(){
+  // Struktur switch case
+    // switch(variable) {
+    //     case value1: 
+    //         code; 
+    //         break;
+    //     case value2: 
+    //         code; 
+    //         break;
+    //     default: 
+    //         code; 
+    //         break;
+    // }
 	int nomorHari;
 	cout << "Masukan Nomor Hari: ";
 	cin >> nomorHari;
