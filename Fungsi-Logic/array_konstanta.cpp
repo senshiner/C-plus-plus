@@ -1,24 +1,25 @@
 #include<iostream>
 using namespace std;
-int main(void){
-    // int i,a[4];
-    // for (i = 0; i <= 3; i++)
-    //     a[i]=2+i;
-    // for(i=0; i<=3; i++)
+// Array dengan Lopping (For)
+int main(void) {
+    int j, b[4];
+    for (j = 0; j <= 3; j++)
+        b[j] = 2 + j;
+    for (j = 0; j <= 3; j++)
+        cout << b[j] << endl;
+    cout << endl; // Output: 2,3,4,5
 
-    // cout<<a[i]<<endl;
-    // cout<<endl;
+    int c, d[4] = {2, 4, 7, 6};
+    for (c = 0; c <= 3; c++)
+        cout << d[c] << endl;
+    cout << endl; // Output: 2,4,7,6
 
-    // int c,a[4] = {2,4,7,6};
-    // for (c = 0; c <= 3; c++)
-    // cout<<a[c]<<endl;
-    // cout<<endl;
+    int k, e[3];
+    e[0] = e[1] = 10;
+    e[2] = 20;
+    for (k = 0; k <= 2; k++)
+        cout << e[k] << endl;
+    cout << endl; // Output: 10,10,20
 
-    int i,a[3];
-    a[0]=a[1]=10;
-    a[2]=20;
-    for (i = 0; i <= 3; i++)
-    cout<<a[i]<<endl;
-    cout<<endl;
-    
+    return 0;
 }
