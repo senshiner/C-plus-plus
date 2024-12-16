@@ -1,27 +1,31 @@
-#include <stdio.h>
-#include <string.h>
+#include <iostream>
+#include <cstring>
+using namespace std;
 
 int main(void) {
-    char nama[] = "Mulyadi Oscar";
-    printf("%s\n", nama); // Output: Mulyadi Oscar
-    printf("%c\n", nama[0]); // Output: M
-    printf("%c\n", nama[8]); // Output: O
+    char name[] = "Mulyadi Oscar"; // Output: Mulyadi Oscar
+    cout << name << endl; // Output: Mulyadi Oscar
 
-    char name[15];
-    strcpy(name, "Jennifer Lopez");
-    printf("%s\n", name); // Output: Jennifer Lopez
-    printf("%c\n", name[0]); // Output: J
-    printf("%c\n", name[7]); // Output: e
+    cout << name[0] << endl; // Output: M
+    cout << name[8] << endl; // Output: O
+
+    char nama[15];
+    strcpy(nama, "Jennifer Lopez"); // strcpy: salin string dari "Jennifer Lopez" ke variabel nama
+    cout << nama << endl; // Output: Jennifer Lopez
+    cout << nama[0] << endl; // Output: J
+    cout << nama[7] << endl; // Output: e
 
     char kalimatA[35];
     char kalimatB[35];
-    strcpy(kalimatA, "Kota Yogyakarta");
-    strcpy(kalimatB, kalimatA);
-    strupr(kalimatA); // Mengubah ke huruf besar
-    printf("%s\n", kalimatA); // Output: KOTA YOGYAKARTA
-    strlwr(kalimatA); // Mengubah kembali ke huruf kecil
-    printf("%s\n", kalimatA); // Output: kota yogyakarta
-    printf("%d\n", strcmp(kalimatA, kalimatB)); // Output: 0
-    strcat(kalimatB, " Never Ending Asia");
-    printf("%s\n", kalimatB); // Output: Kota Yogyakarta Never Ending Asia
+    strcpy(kalimatA, "Kota Yogyakarta"); // Output: Kota Yogyakarta
+    strcpy(kalimatB, kalimatA); // strcpy: salin kalimatA ke kalimatB
+    strupr(kalimatA); // strupr: konversi ke huruf besar
+    cout << kalimatA << endl; // Output: KOTA YOGYAKARTA
+
+    strlwr(kalimatA); // strlwr: ubah ke huruf kecil
+    cout << kalimatA << endl; // Output: kota yogyakarta
+
+    cout << strcmp(kalimatA, kalimatB) << endl; // strcmp: membandingkan kalimatA dan kalimatB
+    strcat(kalimatB, " Never Ending Asia"); // strcat: menambahkan string ke akhir kalimatB
+    cout << kalimatB << endl;              
 }
