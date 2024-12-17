@@ -5,8 +5,8 @@ using namespace std;
 // fungsi (* ) membuka variabel dan melihat isi didalamnya
 
 int main(void) {
-    int A = 25, *pA;             // Variabel A dengan nilai 25 dan pointer pA
-    pA = &A;                      // Pointer pA menunjuk ke alamat A
+    int A = 25, *pA; // Variabel A dengan nilai 25 dan pointer pA
+    pA = &A; // Pointer pA menunjuk ke alamat A
 
     // output: 25
     cout << "A = " << A << endl;
