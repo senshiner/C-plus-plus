@@ -4,7 +4,8 @@ using namespace std;
 
 int main() {
     // Loop Increment (i++)
-    cout << "Loop Increment (i++)" << endl;int i = 1; // Inisialisasi variabel
+    cout << "Loop Increment (i++)" << endl;
+    int i = 1; // Inisialisasi variabel
     // Sintaks do-while:
     // 1. Blok `do` akan dijalankan minimal satu kali, meskipun kondisi `while` bernilai false.
     // 2. Eksekusi dilakukan di dalam blok `do` terlebih dahulu, baru kemudian memeriksa kondisi `while`.
