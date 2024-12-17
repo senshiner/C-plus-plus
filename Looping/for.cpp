@@ -11,7 +11,7 @@ int main() {
 
     // Loop Decrement (--i)
     cout << "Loop Decrement (--i):" << endl;
-    for (int i = 5; i > 0; --i) 
+    for (int i = 6; i > 0; --i) 
         cout << i << endl; // Output: 5,4,3,2,1
     cout << endl;
 
