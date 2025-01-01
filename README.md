@@ -1,3 +1,3 @@
 # C-Latihan
-learning c++ in school<br>
+learning c++ in university<br>
 <b/>Materi pembelajaran Algoritma Pemograman
