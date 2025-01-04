@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    double harga,diskon,total = 0;
+    double harga,diskon,total;
     char ulangi;
     
     do{
