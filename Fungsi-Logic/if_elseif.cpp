@@ -7,8 +7,13 @@ main(void)
 	
 	cout << "Masukan nilai: ";
 	cin >> NilaiUjian;
+
+	if (NilaiUjian < 0 || NilaiUjian > 100) {
+        cout << "Nilai Tidak Valid" << endl;
+        return 0;
+    }
 	
-	if(NilaiUjian >= 90)
+	if(NilaiUjian >= 90 && NilaiUjian <= 100)
 	skor = 'A'; // skor 90 s/d 100 A
 	
 	else if(NilaiUjian >= 70)
